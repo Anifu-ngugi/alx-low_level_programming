@@ -1,10 +1,11 @@
 #include <stdio.h>
- /**
+/**
+ * main - Entry point
  *
- *  main -a program that prints outa sentence using puts function
+ * Description-This is the main function that serves as the entry point
+ * for the program.
  *
- *
- * Return: it will return 0 (the success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
