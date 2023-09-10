@@ -1,21 +1,25 @@
 #include <stdio.h>
 
 /**
- * main-entry point
- *
- * Description: A program using putchar to display alphabets in lowercase
- *
- * Return: Always 0 (Success)
- *
- */
+* main-entry point
+*
+* Description: A program using putchar to display alphabets in lowercase
+*
+* Return: Always 0 (Success)
+*
+*/
 int main(void)
 {
-    char ch;
+char ch;
 
-    for (ch = 'a'; ch <= 'z'; ch++)
-    {
-        putchar(ch);
-    }
+for (ch = 'a'; ch <= 'z'; ch++)
 
-    return (0);
+{
+
+putchar(ch);
+
+
+}
+ putchar('\n');
+return (0);
 }
