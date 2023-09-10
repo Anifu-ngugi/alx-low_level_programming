@@ -20,6 +20,6 @@ putchar(ch);
 
 
 }
- putchar('\n');
+putchar('\n');/*new changes*/
 return (0);
 }
