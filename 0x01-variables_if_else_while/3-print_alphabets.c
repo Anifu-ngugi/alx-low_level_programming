@@ -21,7 +21,7 @@ int main(void)
     {
         putchar(ch);
     }
-    putchar('\n');  /* Print a newline*/
+    
 
     return 0; /* Return 0 to indicate success*/
 }
