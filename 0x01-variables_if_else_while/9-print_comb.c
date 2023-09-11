@@ -16,7 +16,7 @@ putchar('0' + i);
 
 if (i < 9)
 {
-putchar(', ');
+putchar(',');
 }
 else
 {
