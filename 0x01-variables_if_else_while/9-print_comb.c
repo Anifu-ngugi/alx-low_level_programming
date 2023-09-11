@@ -17,7 +17,6 @@ if (i < 9)
 {
 putchar(',');
 putchar(' ');
-break;
 }
 }
 putchar('\n');
