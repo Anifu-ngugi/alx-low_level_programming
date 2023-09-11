@@ -16,10 +16,8 @@ putchar('0' + i);
 if (i < 9)
 {
 putchar(',');
-}
-else
-{
 putchar(' ');
+break;
 }
 }
 putchar('\n');
