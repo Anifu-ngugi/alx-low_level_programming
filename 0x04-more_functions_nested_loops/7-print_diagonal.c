@@ -1,13 +1,14 @@
 #include "main.h"
+
 /**
- * print_diagonal- draws a diagonal line in the terminal
- * @n: prints the number of line per space
- * Return: void 0 (success)
+ * print_diagonal - draws a diagonal line in the terminal
+ * @n: The number of lines to draw
+ *
+ * Return: void
  */
 void print_diagonal(int n)
 {
-	int k; /*for _ */
-	int l; /*for $ */
+	int row, space;
 
 	if (n <= 0)
 	{
@@ -15,12 +16,14 @@ void print_diagonal(int n)
 	}
 	else
 	{
-		for (k = 0 ; k <= n ; k++)
+		for (row = 1; row <= n; row++)
 		{
-			for (l = 0 ; l <= k ; l++)
-				_putchar(32);
+			for (space = 1; space <= row - 1; space++)
+			{
+				_putchar(' ');
+			}
+			_putchar('\\');
+			_putchar('\n');
 		}
 	}
-	 _putchar(92);
-	_putchar('\n');
 }
