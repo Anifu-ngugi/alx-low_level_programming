@@ -5,27 +5,17 @@
 */
 void more_numbers(void)
 {
-int m;
-
-int n = 0;
-
-while (n <= 9)
+int x, y;
+for (x = 0 ; x < 10 ; x++)
 {
-m = 0;
-while (m <= 14)
+for (y = 0 ; y <= 14 ; y++)
 {
-if (m <= 9)
+if (y > 9)
 {
-_putchar('0' + m);
+_putchar( (y / 10) + '0');
 }
-else
-{
-_putchar('0' + (m / 10));
-_putchar('0' + (m % 10));
-}
-m++;
+_putchar( (y % 10) + '0');
 }
 _putchar('\n');
-n++;
 }
 }
