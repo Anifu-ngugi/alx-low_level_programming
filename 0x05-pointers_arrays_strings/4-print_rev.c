@@ -6,18 +6,18 @@
  **/
 void print_rev(char *s)
 {
-	int i, j, len;
+	int i, j, length;
 
 	i = 0;
 
-	while (s[i] != '\0')
+	while (s[i] != '\0') /** this is for checking the length of the string character **/
 	{
 		i++;
 	}
 
-	len = i;
+	length = i;  /**the length we get after finding the length **/
 
-	for (j = len - 1; j >= 0; j--)
+	for (j = length - 1; j >= 0; j--)
 	{
 		_putchar(s[j]);
 	}
