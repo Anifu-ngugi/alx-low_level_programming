@@ -9,6 +9,7 @@
 int main(int argc, char *argv[])
 {
 	int argcstart0 = argc - 1;
+
 	printf("%d\n", argcstart0);
 	(void)argv;
 	return (0);
